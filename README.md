@@ -1,16 +1,43 @@
-# phone_book_ui
 
-A new Flutter project.
+# Flutter Contact List UI
 
-## Getting Started
+![screenshots/img.png](UI Screenshot)
+---
 
-This project is a starting point for a Flutter application.
+## File Structure
 
-A few resources to get you started if this is your first Flutter project:
+Here is the directory structure for this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── main.dart                      # App entry point, sets up MaterialApp and theme
+├── models/
+│   └── contact_model.dart          # Defines the Contact class and dummy data
+├── screens/
+│   └── contact_list_screen.dart    # The main screen widget, builds the form and list
+└── widgets/
+└── contact_list_item.dart      # Reusable widget for a single contact list item
+
+````
+
+---
+
+## How to Run
+
+To run this project:
+
+1. Ensure you have the **Flutter SDK** installed on your machine.  
+2. Clone or download this project.  
+3. Open the project in your preferred IDE (e.g., **VS Code** or **Android Studio**).  
+4. Run the following command in the terminal to install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+5. Connect a device or start an emulator.
+6. Launch the app with:
+
+   ```bash
+   flutter run
+   ```
