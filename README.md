@@ -1,7 +1,7 @@
 
 # Flutter Contact List UI
 
-![screenshots/img.png](UI Screenshot)
+![UI Screenshot](screenshots/img.png)
 ---
 
 ## File Structure
